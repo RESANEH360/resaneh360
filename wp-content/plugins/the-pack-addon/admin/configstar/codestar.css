@@ -1,0 +1,58 @@
+.csf-help {
+    top: 27px !important;
+}
+
+.thepack-three-col {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.thepack-three-col .csf-field {
+    flex-basis: 20%;
+    display: flex;
+}
+
+.thepack-three-col .csf-field .csf-title {
+    width: 100%;
+}
+
+.thepack-three-col .csf-field .csf-fieldset {
+    width: 100%;
+    flex: 1;
+}
+
+.thepack-three-col.not-one .csf-field .csf-fieldset {
+    flex: auto;
+}
+
+.thepack-three-col.hidden {
+    display: none;
+}
+
+.thepack-three-col .csf-field + .csf-field {
+    border-top: 0px solid #eee;
+}
+
+.chosen-container {
+    width: 100% !important;
+}
+
+a.toplevel_page_the-pack {
+    background: linear-gradient(
+            -45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB) !important;
+    animation: Gradient 15s ease infinite;
+    background-size: 400% 400% !important;
+    color: #fff !important;
+}
+
+@keyframes Gradient {
+    0%,
+    100% {
+        background-position: 0 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}

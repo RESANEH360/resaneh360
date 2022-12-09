@@ -1,0 +1,435 @@
+# Translation of Themes - Hello Elementor in Persian
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-15 02:54:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: fa\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "پوسته‌ای بسیار ساده، سبک و چابک برای صفحه ساز المنتور"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Hello Elementor"
+msgstr "سلام المنتور"
+
+#: includes/settings/settings-footer.php:490
+#: includes/settings/settings-header.php:509
+msgid "Upgrade"
+msgstr "ارتقا دهید"
+
+#: includes/customizer/elementor-upsell.php:78
+msgid "Activate Now"
+msgstr "هم اکنون فعال کنید"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: includes/settings/settings-header.php:525
+msgid "Create Header"
+msgstr "ایجاد سربرگ"
+
+#: includes/settings/settings-header.php:523
+msgid "Create a custom header with the new Theme Builder"
+msgstr "ساخت سربرگ سفارشی با پوسته ساز جدید"
+
+#: includes/settings/settings-header.php:507
+msgid "Create a custom header with multiple options"
+msgstr "ساخت یک سربرگ شخصی سازی شده با امکانات متفاوت"
+
+#: includes/settings/settings-header.php:458
+msgid "Toggle Color"
+msgstr "تغییر وضعیت رنگ"
+
+#: includes/settings/settings-header.php:432
+msgid "None"
+msgstr "هیچکدام"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:431
+msgid "Tablet (< %dpx)"
+msgstr "تبلت (< %dpx)"
+
+#. translators: %d: Breakpoint number.
+#: includes/settings/settings-header.php:429
+msgid "Mobile (< %dpx)"
+msgstr "موبایل (< %dpx)"
+
+#: includes/settings/settings-header.php:424
+msgid "Breakpoint"
+msgstr "نقطه شکست"
+
+#: includes/settings/settings-header.php:413
+msgid "Dropdown"
+msgstr "کشویی"
+
+#: includes/settings/settings-header.php:412
+msgid "Horizontal"
+msgstr "افقی"
+
+#: includes/settings/settings-header.php:408
+msgid "Menu Layout"
+msgstr "چیدمان فهرست"
+
+#: includes/settings/settings-footer.php:506
+msgid "Create Footer"
+msgstr "ساخت پاورقی"
+
+#: includes/settings/settings-footer.php:505
+#: includes/settings/settings-header.php:524
+msgid "With the new Theme Builder you can jump directly into each part of your site"
+msgstr "با پوسته ساز جدید شما می‌توانید به صورت مستقیم به هر قسمت از سایت دسترسی داشته باشید."
+
+#: includes/settings/settings-footer.php:504
+msgid "Create a custom footer with the new Theme Builder"
+msgstr "یک پانوشت (فوتر) سفارشی شده با استفاده از پوسته ساز جدید بسازید."
+
+#: includes/settings/settings-footer.php:489
+#: includes/settings/settings-header.php:508
+msgid "Upgrade to Elementor Pro and enjoy free design and many more features"
+msgstr "المنتور را به نسخه پیشرفته ارتقاء دهید و از طراحی آزادانه و امکانات بسیار متنوع لذت ببرید."
+
+#: includes/settings/settings-footer.php:488
+msgid "Create a custom footer with multiple options"
+msgstr "یک پانوشت (فوتر) سفارشی شده با امکانات متفاوت بسازید."
+
+#: includes/settings/settings-footer.php:433
+msgid "All rights reserved"
+msgstr "کلیه‌ی حقوق محفوظ است."
+
+#: includes/settings/settings-footer.php:391
+#: includes/settings/settings-header.php:444
+msgid "Color"
+msgstr "رنگ"
+
+#: includes/settings/settings-footer.php:383
+#: includes/settings/settings-header.php:400
+msgid "Changes will be reflected in the preview only after the page reloads."
+msgstr "نمایش تغییرات تنها پس از بارگذاری مجدد برگه پیش‌نمایش امکان‌پذیر خواهد بود."
+
+#: includes/settings/settings-footer.php:375
+#: includes/settings/settings-header.php:392
+msgid "Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your menus."
+msgstr "به <a href=\"%s\" target=\"_blank\">برگه فهرست ها</a> برای مدیریت فهرست ها بروید."
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "Go to <a href=\"%s\" target=\"_blank\">Menus screen</a> to create one."
+msgstr "به <a href=\"%s\" target=\"_blank\">برگه فهرست ها</a> برای ساخت یک فهرست بروید."
+
+#: includes/settings/settings-footer.php:362
+#: includes/settings/settings-header.php:379
+msgid "There are no menus in your site."
+msgstr "هیچ فهرستی در وب سایت شما وجود ندارد."
+
+#: includes/settings/settings-footer.php:352
+#: includes/settings/settings-header.php:369
+msgid "— Select a Menu —"
+msgstr "— انتخاب یک فهرست —"
+
+#: includes/settings/settings-footer.php:280
+#: includes/settings/settings-footer.php:332
+#: includes/settings/settings-header.php:270
+#: includes/settings/settings-header.php:283
+#: includes/settings/settings-header.php:342
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's title and tagline"
+msgstr "به بخش<a href=\"%s\">هویت سایت</a> برای مدیریت عنوان و شعار وب سایت بروید."
+
+#: includes/settings/settings-footer.php:266
+#: includes/settings/settings-footer.php:320
+#: includes/settings/settings-footer.php:403
+#: includes/settings/settings-footer.php:455
+#: includes/settings/settings-header.php:269
+#: includes/settings/settings-header.php:330
+#: includes/settings/settings-header.php:473
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+#: includes/settings/settings-footer.php:250
+#: includes/settings/settings-footer.php:305
+#: includes/settings/settings-footer.php:440
+#: includes/settings/settings-header.php:253
+#: includes/settings/settings-header.php:315
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: includes/settings/settings-footer.php:221
+#: includes/settings/settings-header.php:224
+msgid "Go to <a href=\"%s\">Site Identity</a> to manage your site's logo"
+msgstr "به بخش <a href=\"%s\">هویت سایت</a>برای مدیریت نماد سایت بروید."
+
+#: includes/settings/settings-footer.php:220
+#: includes/settings/settings-header.php:223
+msgid "Logo Width"
+msgstr "عرض لوگو"
+
+#: includes/settings/settings-footer.php:210
+#: includes/settings/settings-header.php:213
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/settings/settings-footer.php:209
+#: includes/settings/settings-header.php:212
+msgid "Logo"
+msgstr "لوگو"
+
+#: includes/settings/settings-footer.php:205
+#: includes/settings/settings-header.php:208
+msgid "Type"
+msgstr "نوع"
+
+#: includes/settings/settings-footer.php:183
+#: includes/settings/settings-header.php:179
+msgid "Background"
+msgstr "پس زمینه "
+
+#: includes/settings/settings-footer.php:155
+#: includes/settings/settings-header.php:141
+msgid "Gap"
+msgstr "فاصله"
+
+#: includes/settings/settings-footer.php:127
+#: includes/settings/settings-header.php:113
+msgid "Content Width"
+msgstr "عرض محتوا"
+
+#: includes/settings/settings-footer.php:116
+#: includes/settings/settings-header.php:102
+msgid "Full Width"
+msgstr "تمام عرض"
+
+#: includes/settings/settings-footer.php:115
+#: includes/settings/settings-header.php:101
+msgid "Boxed"
+msgstr "جعبه‌ای"
+
+#: includes/settings/settings-footer.php:113
+#: includes/settings/settings-header.php:99
+msgid "Width"
+msgstr "عرض"
+
+#: includes/settings/settings-footer.php:102
+#: includes/settings/settings-header.php:88
+msgid "Centered"
+msgstr "درمرکز"
+
+#: includes/settings/settings-footer.php:101
+#: includes/settings/settings-header.php:87
+msgid "Inverted"
+msgstr "وارونه"
+
+#: includes/settings/settings-footer.php:100
+#: includes/settings/settings-header.php:86
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: includes/settings/settings-footer.php:98
+#: includes/settings/settings-header.php:84
+msgid "Layout"
+msgstr "چیدمان"
+
+#: includes/settings/settings-footer.php:86
+#: includes/settings/settings-footer.php:415
+msgid "Copyright"
+msgstr "حق نشر"
+
+#: includes/settings/settings-footer.php:74
+#: includes/settings/settings-footer.php:343
+#: includes/settings/settings-footer.php:371
+#: includes/settings/settings-header.php:73
+#: includes/settings/settings-header.php:353
+#: includes/settings/settings-header.php:388
+msgid "Menu"
+msgstr "فهرست"
+
+#: includes/settings/settings-footer.php:62
+#: includes/settings/settings-footer.php:295
+#: includes/settings/settings-header.php:62
+#: includes/settings/settings-header.php:298
+msgid "Tagline"
+msgstr "شعار"
+
+#: includes/settings/settings-footer.php:53
+#: includes/settings/settings-footer.php:65
+#: includes/settings/settings-footer.php:77
+#: includes/settings/settings-footer.php:89
+#: includes/settings/settings-header.php:54
+#: includes/settings/settings-header.php:65
+#: includes/settings/settings-header.php:76
+msgid "Hide"
+msgstr "پنهان کردن"
+
+#: includes/settings/settings-footer.php:52
+#: includes/settings/settings-footer.php:64
+#: includes/settings/settings-footer.php:76
+#: includes/settings/settings-footer.php:88
+#: includes/settings/settings-header.php:53
+#: includes/settings/settings-header.php:64
+#: includes/settings/settings-header.php:75
+msgid "Show"
+msgstr "نمایش‌دادن"
+
+#: includes/settings/settings-footer.php:50
+#: includes/settings/settings-footer.php:195
+#: includes/settings/settings-header.php:51
+#: includes/settings/settings-header.php:191
+msgid "Site Logo"
+msgstr "لوگو سایت"
+
+#: includes/elementor-functions.php:208
+msgid "Use this experiment to design header and footer using Elementor Site Settings. <a href=\"%s\" target=\"_blank\">Learn More</a>"
+msgstr "از این آزمایش (تجربه) برای طراحی سربرگ و پاورقی با استفاده از تنظیمات سایت المنتور استفاده کنید. <a href=\"%s\" target=\"_blank\">اطلاعات بیشتر</a>"
+
+#: includes/elementor-functions.php:207
+msgid "Hello Theme Header & Footer"
+msgstr "سربرگ و فوتر پوسته سلام"
+
+#: includes/customizer/elementor-upsell.php:86
+msgid "Start Here"
+msgstr "اینجا شروع کنید"
+
+#: includes/customizer/elementor-upsell.php:76
+#: includes/customizer/elementor-upsell.php:84
+msgid "Create cross-site Header and Footer using Elementor & Hello theme."
+msgstr "با استفاده از المنتور و پوسته سلام سربرگ و پاورقی متقابل سایت ایجاد نمایید."
+
+#: includes/customizer/elementor-upsell.php:75
+#: includes/customizer/elementor-upsell.php:83
+msgid "Set Your Header &amp; Footer"
+msgstr "سربرگ و فوتر خودتان را تنظیم کنید"
+
+#: includes/customizer/elementor-upsell.php:68
+msgid "You need Elementor version 3.1.0 or above to create a cross-site Header and Footer."
+msgstr "شما به نسخه‌ 3.1.0 و بالاتر المنتور برای ساخت سربرگ و پاورقی cross-site نیاز دارید."
+
+#: includes/customizer/elementor-upsell.php:67
+#: includes/customizer/elementor-upsell.php:70
+msgid "Update Elementor"
+msgstr "بروزرسانی المنتور"
+
+#: includes/customizer/elementor-upsell.php:54
+msgid "Install &amp; Activate"
+msgstr "نصب و فعال‌سازی"
+
+#: includes/customizer/elementor-upsell.php:43
+#: includes/customizer/elementor-upsell.php:60
+msgid "Create a cross-site Header and Footer using Elementor & Hello theme."
+msgstr "با استفاده از المنتور و پوسته سلام یک سربرگ و پاورقی متقابل سایت ایجاد نمایید."
+
+#: includes/customizer-functions.php:19
+msgid "Header &amp; Footer"
+msgstr "سربرگ و پاورقی"
+
+#: includes/admin-functions.php:136
+msgid "Get Elementor"
+msgstr "دریافت المنتور"
+
+#: functions.php:37 includes/settings/settings-footer.php:21
+#: includes/settings/settings-footer.php:42
+msgid "Footer"
+msgstr "پاورقی"
+
+#: functions.php:36 includes/settings/settings-header.php:23
+#: includes/settings/settings-header.php:43
+msgid "Header"
+msgstr "سربرگ"
+
+#: includes/admin-functions.php:47
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "پوستهٔ سلام المنتور یک پوستهٔ راه انداز سبک است. به شما توصیه می‌کنیم از این پوسته همراه با افزونهٔ صفحه ساز المنتور (Elementor Page Builder) استفاده کنید؛ این دو با هم عالی کار می‌کنند!"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "سپاس برای نصب پوستهٔ سلام المنتور!"
+
+#: includes/admin-functions.php:49 includes/customizer/elementor-upsell.php:42
+msgid "Install Elementor"
+msgstr "نصب المنتور"
+
+#: includes/admin-functions.php:40 includes/customizer/elementor-upsell.php:59
+#: includes/customizer/elementor-upsell.php:62
+msgid "Activate Elementor"
+msgstr "فعال سازی المنتور"
+
+#: includes/admin-functions.php:142
+msgid "Learn more about Elementor"
+msgstr "اطلاعات بیشتر دربارهٔ المنتور"
+
+#: includes/admin-functions.php:38
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "پوستهٔ سلام المنتور یک پوستهٔ راه انداز سبک است. این پوسته طوری طراحی شده که با افزونهٔ صفحه ساز المنتور (Elementor Page Builder) عالی کار کند."
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته‌اند."
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "%1$s پاسخ"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "یک پاسخ"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "%s تازه‌تر"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s قدیمی‌تر"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "چیزی را که می‌خواستید پیدا نکردیم."
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "نتایج جستجوی"
+
+#: template-parts/dynamic-footer.php:33 template-parts/dynamic-header.php:36
+#: template-parts/header.php:29
+msgid "Home"
+msgstr "خانه"
+
+#: template-parts/single.php:25
+msgid "Tagged "
+msgstr "برچسب خورده"
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "چیزی در اینجا پیدا نشد."
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "صفحه پیدا نشد."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "Elementor Team"
+msgstr "تیم المنتور"

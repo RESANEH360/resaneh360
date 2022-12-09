@@ -1,0 +1,21 @@
+.tp-recent-post .item {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tp-recent-post .entry-media {
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tp-recent-post .grid-content {
+    overflow: hidden;
+    position: relative;
+}
+ 

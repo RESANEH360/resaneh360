@@ -1,0 +1,35 @@
+.tb_videobgpop {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+}
+
+.tb_videobgpop .vidbg {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.tb_videobgpop .desc {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 20px;
+}
+
+.tb_videobgpop a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.tb_videobgpop .tbicon {
+    position: relative;
+}

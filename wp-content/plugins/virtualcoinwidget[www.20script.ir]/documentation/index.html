@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>Virtual Coin Widgets 2.2.0  - Documentation</title>
+    <link rel="stylesheet" href="assets/semantic/semantic.min.css">
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<div id="side-menu" class="ui left vertical inverted fixed labeled icon menu">
+    <a class="active item" data-section="intro">
+        <i class="home icon"></i>
+        VCW
+    </a>
+    <a class="item" data-section="setup">
+        <i class="download icon"></i>
+        Setup
+    </a>
+    <a class="item" data-section="shortcodes">
+        <i class="cubes icon"></i>
+        Shortcodes
+    </a>
+    <a class="item" data-section="usage">
+        <i class="wizard icon"></i>
+        Usage
+    </a>
+    <a class="item" data-section="contributes">
+        <i class="hand peace icon"></i>
+        Contributes
+    </a>
+    <a class="item" data-section="change-log">
+        <i class="file archive outline icon"></i>
+        Change Log
+    </a>
+    <a class="item" data-section="support">
+        <i class="help circle icon"></i>
+        Support
+    </a>
+</div>
+<div id="content">
+    <div class="ui basic segment">
+        <div class="ui icon message">
+            <i class="file text icon"></i>
+            <div class="content">
+                <div class="header">Virtual Coin Widgets 2.2.0</div>
+                <p>Plugin Documentation By <a class="ui link" target="_blank" href="http://runcoders.com">RunCoders</a> </p>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="ui basic segment">
+
+        <div id="intro">
+            <h1 class="ui header">Virtual Coin Widgets</h1>
+            <p>Virtual Coin Widgets is a plugin with 10 cryptocurrencies widgets.</p>
+            <p>Before starting the setup, please check if your system meets the requirements.</p>
+
+            <h3 class="ui header">Requirements:</h3>
+            <div class="ui bulleted list">
+                <div class="item">Wordpress 3.6+</div>
+                <div class="item">PHP 5.6+</div>
+                <div class="item">PHP cURL</div>
+                <div class="item">Visual Composer 3.7.2+</div>
+            </div>
+            <br>
+            <div class="ui statistic">
+                <div class="label">
+                    Total CryptoCurrencies
+                </div>
+                <div class="value">
+                    3700+
+                </div>
+            </div>
+            <div class="ui statistic">
+                <div class="label">
+                    Shortcodes
+                </div>
+                <div class="value">
+                    10
+                </div>
+            </div>
+            <div class="ui statistic">
+                <div class="label">
+                    Color Schemas
+                </div>
+                <div class="value">
+                    21
+                </div>
+            </div>
+            <h3 class="ui header">Please get started with the following steps:</h3>
+            <br>
+            <div id="steps-cards" class="ui raised doubling four cards">
+                <div class="card">
+                    <div class="content">
+                        <div class="header">1. Setup</div>
+                        <div class="description">
+                            Before you can use this plugin you need to complete the setup.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="setup">
+                        <i class="download icon"></i>
+                        Setup
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">2. Shortcodes</div>
+                        <div class="description">
+                            After the setup, you can create your widgets.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="shortcodes">
+                        <i class="cubes icon"></i>
+                        Shortcodes
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">3. Usage</div>
+                        <div class="description">
+                            How & where to use shortcodes.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="usage">
+                        <i class="wizard icon"></i>
+                        Usage
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">4. Contributes</div>
+                        <div class="description">
+                            List of frameworks/APIs used.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="contributes">
+                        <i class="hand peace icon"></i>
+                        Contributes
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">5. Change Log</div>
+                        <div class="description">
+                            Updates change log.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="change-log">
+                        <i class="file archive outline icon"></i>
+                        Change Log
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="header">6. Support</div>
+                        <div class="description">
+                            If you need help, just send us a message.
+                        </div>
+                    </div>
+                    <div class="ui bottom attached button" data-section="support">
+                        <i class="help circle icon"></i>
+                        Support
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div id="setup">
+            <h1 class="ui header">Setup</h1>
+            <div class="ui basic segment">
+                <h4 class="ui header">From Wordpress Admin Panel</h4>
+                <div class="ui bulleted list">
+                    <div class="item">Open the Wordpress admin panel (navigate through web browser to the folder where you have installed the WordPress <strong>e.g www.your_domain.com/wp-admin/</strong>).</div>
+                    <div class="item">Login to your Wordpress admin panel then from the sidebar on the left choose <strong>Plugins</strong>.</div>
+                    <div class="item">Click <strong>Add New</strong>.</div>
+                    <div class="item">Click in <strong>Upload Plugin</strong> button and choose <strong>virtual_coin_widgets.zip</strong> file.</div>
+                    <div class="item">After installation click <strong>Activate Plugin</strong>.</div>
+                </div>
+
+                <h4 class="ui header">From FTP</h4>
+                <div class="ui bulleted list">
+                    <div class="item">Unzip the <strong>virtual_coin_widgets.zip</strong> package (the zip package is inside the plugin folder you have downloaded from CodeCanyon).</div>
+                    <div class="item">Connect to your server.</div>
+                    <div class="item">Navigate to your Wordpress installation folder.</div>
+                    <div class="item">Upload the <strong>virtual_coin_widgets</strong> folder into the <strong>wp-content/plugins</strong> directory (the path will look like this: <strong>wp-content/plugins/virtual_coin_widgets</strong>).</div>
+                    <div class="item">Open the Wordpress admin panel (navigate through web browser to the folder where you have installed the WordPress <strong>e.g www.your_domain.com/wp-admin/</strong>).</div>
+                    <div class="item">Login to your Wordpress admin panel then from the sidebar on the left choose <strong>Plugins</strong>.</div>
+                    <div class="item">Find the <strong>Virtual Coin Widgets For Visual Composer</strong> plugin and click the <strong>Activate</strong>.</div>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="shortcodes">
+            <h1 class="ui header">Shortcodes</h1>
+
+            <div id="shortcodes-list" class="ui fluid styled accordion">
+
+                <div class="active title">
+                    <i class="dropdown icon"></i>
+                    Change Label
+                </div>
+                <div class="active content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-change-label id="bitcoin" color="black" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/change_label.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Price Label</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: USD</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-price-label id="bitcoin" color="white" currency="USD" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/price_label.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Change Big Label</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-change-big-label id="ethereum" color="indigo" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/change_big_label.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Price Big Label</div>
+                <div class="content">
+                    <div class="ui list">
+                    <div class="item">
+                        <div class="header">Options</div>
+
+                        <div class="ui bulleted list">
+                            <div class="item">
+                                color
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: white</div>
+                                    <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                id
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: bitcoin</div>
+                                    <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                currency1
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: USD</div>
+                                    <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                currency2
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: EUR</div>
+                                    <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                currency3
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: GBP</div>
+                                    <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                url
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: none</div>
+                                    <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                target
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: _blank</div>
+                                    <div class="item">Available: _blank or _self</div>
+                                    <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                fullwidth
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: no</div>
+                                    <div class="item">Available: yes or no</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                show_logo
+                                <div class="ui bulleted list">
+                                    <div class="item">Default: yes</div>
+                                    <div class="item">Available: yes or no</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="header">Code Example</div>
+                        <code>[vcw-price-big-label id="ripple" color="blue" currency1="USD" currency2="EUR" currency3="GBP" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                    </div>
+                    <div class="item">
+                        <div class="header">Preview</div>
+                        <img class="ui image" src="assets/images/price_big_label.png">
+                    </div>
+                </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Change Card</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-change-card id="neo" color="green" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/change_card.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Price Card</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency1
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: USD</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency2
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: EUR</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency3
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: GBP</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-price-card id="monero" color="orange" currency1="USD" currency2="EUR" currency3="GBP" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/price_card.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Full Card</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    id
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: bitcoin</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency1
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: USD</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency2
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: EUR</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency3
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: GBP</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    url
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Including a URL will turn it in a button with redirection.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    target
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: _blank</div>
+                                        <div class="item">Available: _blank or _self</div>
+                                        <div class="item">Use _black to open in new tab, or _self to open in same tab</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    show_logo
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: yes</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-full-card id="litecoin" color="grey" currency1="USD" currency2="EUR" currency3="GBP" url="http://runcoders.com/" target="_self" fullwidth="no" show_logo="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/full_card.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Table</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    ids
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: none</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                        <div class="item">Should be comma separated symbols string.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    count
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: 10</div>
+                                        <div class="item">If symbols is empty, will be displayed this count of top market cap cryptocurrencies.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: USD</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-table color="white" currency="USD" count="10" fullwidth="yes"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/table.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Small Table</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    symbols
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: BTC,ETH,XRP,LTC,XMR</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                        <div class="item">Should be comma separated symbols.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    count
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: 10</div>
+                                        <div class="item">If symbols is empty, will be displayed this count of top market cap cryptocurrencies.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    currency
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: USD</div>
+                                        <div class="item">Available: Check <a class="ui teal label" data-section="currencies">Currencies</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <code>[vcw-small-table ids="bitcoin,ethereum,ripple,monero,litecoin" color="black" currency="JPY" fullwidth="no"]</code>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/small_table.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <i class="dropdown icon"></i>
+                    Converter</div>
+                <div class="content">
+                    <div class="ui list">
+                        <div class="item">
+                            <div class="header">Options</div>
+
+                            <div class="ui bulleted list">
+                                <div class="item">
+                                    color
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: white</div>
+                                        <div class="item">Available: red, pink, purple, deep_purple, indigo, blue, light_blue, cyan, teal, green, light_green, lime, yellow, amber, orange, deep_orange, brown, grey, blue_grey, black, white.</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    symbol1
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: BTC</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    symbol2
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: BTC</div>
+                                        <div class="item">Available: <a class="ui teal label" target="_blank" href="https://www.coingecko.com">CoinGecko</a></div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    initial
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: 1</div>
+                                        <div class="item">Initial value for symbol1</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    fullwidth
+                                    <div class="ui bulleted list">
+                                        <div class="item">Default: no</div>
+                                        <div class="item">Available: yes or no</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="header">Code Example</div>
+                            <pre>[vcw-converter symbol1="BTC" symbol2="USD" color="black" initial="1" fullwidth="no"]</pre>
+                        </div>
+                        <div class="item">
+                            <div class="header">Preview</div>
+                            <img class="ui image" src="assets/images/converter.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="usage">
+            <h1 class="ui header">Usage</h1>
+            <p>To use the shortcodes you just need to paste the code in post/page content or text widget. We have two examples:</p>
+            <h3 class="ui header">Page/Post</h3>
+            <img class="ui huge bordered image" src="assets/images/usage_post.jpg">
+            <h3 class="ui header">Sidebar</h3>
+            <img class="ui huge bordered image" src="assets/images/usage_sidebar.jpg">
+        </div>
+        <div id="contributes">
+            <h1 class="ui header">Contributes</h1>
+            <p>Virtual Coin Widgets is using the following frameworks/APIs:</p>
+            <div class="ui list">
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://jquery.com/">
+                        <i class="external icon"></i> jQuery
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="http://openexchangerates.github.io/money.js/">
+                        <i class="external icon"></i> MoneyJS
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://github.com/CoinCapDev/CoinCap.io">
+                        <i class="external icon"></i> CoinCap API
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="https://www.coingecko.com/api/docs/v3">
+                        <i class="external icon"></i> CoinGecko API
+                    </a>
+                </div>
+                <div class="item">
+                    <a target="_blank" class="ui basic button" href="http://fontawesome.io/">
+                        <i class="external icon"></i> Font Awesome
+                    </a>
+                </div>
+            </div>
+            <p>Thanks to all that contribute for the development of these technologies.</p>
+        </div>
+        <div id="change-log">
+            <h1 class="ui header">Change Log</h1>
+            <br><br>
+            <div class="ui list">
+                <div class="item">
+                    <div class="header"><div class="ui teal label">1.0<div class="detail">2017/01/25</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">700+ Cryptocurrencies</div>
+                        <div class="item">10 Widgets</div>
+                        <div class="item">21 Colors Schemas</div>
+                        <div class="item">32 Fiat Currencies</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">1.1<div class="detail">2017/06/03</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Builder added</div>
+                        <div class="item">163 Fiat currencies</div>
+                        <div class="item">Bugs fixed</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">1.2<div class="detail">2017/07/17</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Bugs fixed</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">1.2.1<div class="detail">2017/11/13</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">API request fixed</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">1.2.2<div class="detail">2018/01/06</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Bugs fixed</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">2.0.0<div class="detail">2018/02/19</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Widgets re-built (major bug was corrected)</div>
+                        <div class="item">Fullwidth feature added</div>
+                        <div class="item">Re-design</div>
+                        <div class="item">New Builder</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">2.1.9<div class="detail">2018/05/28</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">CryptoCurrency logos added</div>
+                        <div class="item">Live trading added</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">2.1.10<div class="detail">2018/05/29</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">Bugs fixed</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="header"><div class="ui teal label">2.2.0<div class="detail">2019/01/07</div></div></div>
+                    <div class="ui bulleted list">
+                        <div class="item">New API (CoinGecko)</div>
+                        <div class="item">Widgets attributes changed: symbol -> id (coingecko)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="support">
+            <h1 class="ui header">Help Support</h1>
+            <p>If you need help with the setup/usage of this software, please contact us:</p>
+            <div class="ui  list">
+                <a class="item" href="mailto:runcoders@gmail.com">
+                    <i class="mail icon"></i>
+                    runcoders@gmail.com
+                </a>
+                <a class="item" target="_blank" href="http://runcoders.com">
+                    <i class="external icon"></i>
+                    RunCoders
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="ui basic segment">
+        <a class="ui large orange label" target="_blank" href="http://runcoders.com">
+            &copy 2019 RunCoders
+        </a>
+    </div>
+</div>
+<script src="assets/jquery.min.js"></script>
+<script src="assets/semantic/semantic.min.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
